@@ -7,9 +7,6 @@ Orca Core 是 ORCA Hand 的核心控制包。它用于抽象硬件，提供校�
 
 ![image-20260104005223715](D:\orcatouch\image\image1.png)
 =======
-![image-20260104005223715](\image\image1.png)
->>>>>>> 5eaaef97b327c50133f4af26ac9054e90e279689
-
 [**采购链接**](https://item.jd.com/10167956815203.html#switch-sku)
 
 ### **开始**
