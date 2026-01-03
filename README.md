@@ -1,10 +1,14 @@
 Orca Core 是 ORCA Hand 的核心控制包。它用于抽象硬件，提供校准和张紧脚本，并在关节空间中使用简单的高级控制方法来控制机械手。
 
+<<<<<<< HEAD
 
 
 
 
 ![image-20260104005223715](D:\orcatouch\image\image1.png)
+=======
+![image-20260104005223715](\image\image1.png)
+>>>>>>> 5eaaef97b327c50133f4af26ac9054e90e279689
 
 [**采购链接**](https://item.jd.com/10167956815203.html#switch-sku)
 
@@ -40,7 +44,7 @@ pip install pyserial
 
 ```
 
- ![4](D:\orcatouch\image\4.png)
+ ![4](\image\4.png)
 
 ```
 cd projects/OrcaHand/orca_core/
