@@ -5,7 +5,7 @@ Orca Core 是 ORCA Hand 的核心控制包。它用于抽象硬件，提供校�
 
 
 
-![image-20260104005223715](D:\orcatouch\image\image1.png)
+![image-20260104005223715](/image/image1.png)
 =======
 [**采购链接**](https://item.jd.com/10167956815203.html#switch-sku)
 
@@ -19,7 +19,7 @@ Orca Core 是 ORCA Hand 的核心控制包。它用于抽象硬件，提供校�
 git clone https://ghfast.top/https://github.com/orcahand/orca_core.git
 ```
 
-![2](D:\orcatouch\image\2.png)
+![2](/image/2.png)
 
 ### **1.****创建虚拟环境（推荐）：**
 
@@ -29,7 +29,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-![3](D:\orcatouch\image\3.png)
+![3](/image/3.png)
 
 如果您愿意，您还可以使用Poetry、pyenv、conda或任何其他环境管理器。
 
@@ -41,7 +41,7 @@ pip install pyserial
 
 ```
 
- ![4](\image\4.png)
+ ![4](/image/4.png)
 
 ```
 cd projects/OrcaHand/orca_core/
@@ -49,9 +49,9 @@ cd projects/OrcaHand/orca_core/
 pip install -e .
 ```
 
- ![5](D:\orcatouch\image\5.png)
+ ![5](/image/5.png)
 
-![6](D:\orcatouch\image\6.png)
+![6](/image/6.png)
 
 ### **3.****检查配置文件：**
 
@@ -61,7 +61,7 @@ pip install -e .
 
 ```
 
- ![7](D:\orcatouch\image\7.png)
+ ![7](/image/7.png)
 
 并确保它与您的硬件设置相匹配。
 
@@ -71,7 +71,7 @@ pip install -e .
 linux端：端口改为/dev/ttyUSB0
 ```
 
- ![8](D:\orcatouch\image\8.png)
+ ![8](/image/8.png)
 
 ### **4.**运行**张力和校准脚本**：
 
@@ -79,13 +79,13 @@ linux端：端口改为/dev/ttyUSB0
 python scripts/tension.py orca_core/models/orcahand_v1_right
 ```
 
- ![9](D:\orcatouch\image\9.png)
+ ![9](/image/9.png)
 
 ```
 python scripts/calibrate.py orca_core/models/orcahand_v1_right
 ```
 
- ![10](D:\orcatouch\image\10.png)
+ ![10](/image/10.png)
 
 如果需要，用特定的手模文件夹替换该路径。
 
@@ -128,7 +128,7 @@ hand.disable_torque()
 hand.disconnect()
 ```
 
-![11](D:\orcatouch\image\11.png)
+![11](/image/11.png)
 
 ### **笔记**
 
@@ -142,9 +142,9 @@ hand.disconnect()
 
 ID图
 
-   ![12](D:\orcatouch\image\12.png)
+   ![12](/image/12.png)
 
-![13](D:\orcatouch\image\13.png)
+![13](/image/13.png)
 
 
 
@@ -154,7 +154,7 @@ ID图
 检查配置文件（例如orca_core/orca_core/models/orcahand_v1_right/config.yaml）
 ```
 
-![1.1](D:\orcatouch\image\1.1.png)
+![1.1](/image/1.1.png)
 
 并确保它与您的硬件设置相匹配。
 
@@ -164,7 +164,7 @@ ID图
 linux端：端口改为/dev/ttyUSB0
 ```
 
-![right_Orca Hand-2.png](D:\orcatouch\image\1.2.png)
+![right_Orca Hand-2.png](/image/1.2.png)
 
 ```
 python3 -m venv venv_right #执行一遍，后面启动就不需要再次执行了
@@ -172,7 +172,7 @@ python3 -m venv venv_right #执行一遍，后面启动就不需要再次执行�
 source venv_right/bin/activate
 ```
 
-![right_Orca Hand-0.png](D:\orcatouch\image\1.3.png)
+![right_Orca Hand-0.png](/image/1.3.png)
 
 运行**张力和校准脚本**：
 
@@ -184,7 +184,7 @@ cd /home/robot/projects/OrcaHand/orca_core
 python scripts/tension.py orca_core/models/orcahand_v1_right
 ```
 
-**![right_Orca Hand-3.png](D:\orcatouch\image\1.4.png)**
+**![right_Orca Hand-3.png](/image/1.4.png)**
 
 
 
@@ -200,11 +200,11 @@ python scripts/calibrate.py orca_core/models/orcahand_v1_right
 
 校准前：
 
-![right_Orca Hand-4.png](D:\orcatouch\image\1.5.png)
+![right_Orca Hand-4.png](/image/1.5.png)
 
 校准后：
 
-![right_Orca Hand-5.png](D:\orcatouch\image\1.6.png)
+![right_Orca Hand-5.png](/image/1.6.png)
 
 ### **将手移至中立位置****：**
 
@@ -214,7 +214,7 @@ python scripts/neutral.py orca_core/models/orcahand_v1_right
 
 ```
 
-![right_Orca Hand-6.png](D:\orcatouch\image\1.7.png)
+![right_Orca Hand-6.png](/image/1.7.png)
 
 案例Demo
 
@@ -224,7 +224,7 @@ python3 scripts/main_demo.py orca_core/models/orcahand_v1_right
 
 ```
 
-![right_Orca Hand-7.png](D:\orcatouch\image\1.8.png)
+![right_Orca Hand-7.png](/image/1.8.png)
 
 ```
 python3 scripts/main_demo_abduction.py orca_core/models/orcahand_v1_right
@@ -232,7 +232,7 @@ python3 scripts/main_demo_abduction.py orca_core/models/orcahand_v1_right
 
 ```
 
-![right_Orca Hand-8.png](D:\orcatouch\image\1.9.png)
+![right_Orca Hand-8.png](/image/1.9.png)
 
 ```
 python scripts/zero.py orca_core/models/orcahand_v1_right
@@ -240,7 +240,7 @@ python scripts/zero.py orca_core/models/orcahand_v1_right
 
 ```
 
-![right_Orca Hand-9.png](D:\orcatouch\image\2.0.png)
+![right_Orca Hand-9.png](/image/2.0.png)
 
 ```
 python3 scripts/slider_joint.py orca_core/models/orcahand_v1_right
@@ -248,27 +248,27 @@ python3 scripts/slider_joint.py orca_core/models/orcahand_v1_right
 
 ```
 
-![right_Orca Hand-10.png](D:\orcatouch\image\2.1.png)
+![right_Orca Hand-10.png](/image/2.1.png)
 
 ```python
 python3 scripts/slider_motor.py orca_core/models/orcahand_v1_right
 ```
 
-![right_Orca Hand-11.png](D:\orcatouch\image\2.2.png)
+![right_Orca Hand-11.png](/image/2.2.png)
 
 python3 scripts/test.py
 
-![right_Orca Hand-12.png](D:\orcatouch\image\2.3.png)
+![right_Orca Hand-12.png](/image/2.3.png)
 
 ```
 python 3 scripts/record_angles.py orca_core/models/orcahand_v1_right
 ```
 
-![right_Orca Hand-20.png](D:\orcatouch\image\2,4.png)
+![right_Orca Hand-20.png](/image/2,4.png)
 
 Ctrl+C后自动保存成带有时间的yaml文件
 
-![right_Orca Hand-21.png](D:\orcatouch\image\2.5.png)
+![right_Orca Hand-21.png](/image/2.5.png)
 
 选取其中一个录制好的动作序列，指定文件名，例如：
 
@@ -276,4 +276,4 @@ Ctrl+C后自动保存成带有时间的yaml文件
 python3 scripts/replay_angles.py orca_core/models/orcahand_v1_right  --replay_file  /home/robot/projects/OrcaHand/orca_core/replay_sequences/replay_sequence_20251224_155748.yaml
 ```
 
-![right_Orca Hand-22.png](D:\orcatouch\image\2.6.png)
+![right_Orca Hand-22.png](/image/2.6.png)
