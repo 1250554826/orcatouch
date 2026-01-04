@@ -36,7 +36,7 @@ pip install pyserial
 
 ```
 
- ![4](D:\orcatouch\image\4.png)
+ ![4](\image\4.png)
 
 ```
 cd projects/OrcaHand/orca_core/
